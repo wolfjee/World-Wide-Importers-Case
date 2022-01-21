@@ -211,7 +211,7 @@ print("MSE of linear model:\t {} \nMSE of polynomial model: {}"
 
 # Compare R-Squared
 r2_linear = model_linear.score(x, y)
-r2_poly = model_linear.score(***, y)
+r2_poly = model_poly.score(***, y)
 
 print("Rsquared of linear model: \t{}\nRsquared of polynomial model:\t{}"
       .format(r2_linear, 
